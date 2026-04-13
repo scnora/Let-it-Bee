@@ -1,37 +1,43 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f7f3ef;
-    margin: 0;
-    padding: 0;
-}
-header{
-    background-color: #edc371;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-.main-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    background-color: #fbe8d6;
     margin: 0;
     padding: 0;
 }
 
-.main-nav li a {
-    color: white;
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #edc371;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    color: black;
     text-decoration: none;
     font-weight: bold;
-    text-align: left;
 }
-.main-nav li a:hover {
-    text-decoration: underline;
-}
-.main-nav{
-    justify-content: flex-start;
-}
-.wrapper {
+
+.reviews-page .wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas:
@@ -152,22 +158,22 @@ nav li a:hover {
 }
 
 
-h2 {
+main h2 {
     color: #333;
 }
 
-p {
+main p {
     line-height: 1.6;
     color: #444;
 }
 
-a {
+main a {
     color: #f4b942;
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover {
+main a:hover {
     text-decoration: underline;
 }
 
@@ -202,8 +208,41 @@ th {
     color: white;
 }
 
+.inventory-page .wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 15px;
+}
+
 .gallery img {
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #704211;
+    color: white;
+    margin-top: 20px;
+}
+.fa-star {
+    color: #f4b942;
+    margin-right: 3px;
 }
