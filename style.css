@@ -123,8 +123,13 @@ nav li a:hover {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     align-self: start;
 }
+.side1 video,
+.side2 video {
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
  
-/* ── THE INNER ARTICLE GRID ── */
+
 .article-grid {
     border-radius: 12px;
     padding: 30px;
