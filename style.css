@@ -207,6 +207,9 @@ th {
     background-color: #f4b942;
     color: white;
 }
+td{
+    background-color: rgb(250, 235, 206);
+}
 
 .inventory-page .wrapper {
     display: flex;
@@ -214,7 +217,7 @@ th {
     max-width: 1000px;
     margin: 20px auto;
     gap: 20px;
-    padding: 20px;
+    padding: 40px;
     border-radius: 12px;
     background-color: white;
 
