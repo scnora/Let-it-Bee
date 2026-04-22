@@ -415,7 +415,6 @@ footer {
 .map-point:hover .tooltip {
     opacity: 1;
     visibility: visible;
-    transform: translateY(-5px);
 
 }
 
@@ -469,6 +468,7 @@ footer {
 .component{
     display: flex;
     flex-direction: column;
+    max-width: 700px;
     align-items: center;
     gap: 10px;
 }
@@ -481,6 +481,7 @@ footer {
     width: 200px;
     height: auto;
     border-radius: 12px;
+    align-content: center;
 }
 
 
@@ -490,39 +491,97 @@ footer {
     padding: 30px;
     background-color: white;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .team {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 25px;
-    margin-top: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.member {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #fde2ac;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
+.role {
+    text-align: center;
+    color: #704211;
+    margin-bottom: 15px;
+    padding: 2px 8px;
+    font-size: 1.5rem;
+}
 
-.member img {
-    width: 140px;
-    height: 140px;
+.member-info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 150px;
+}
+
+.left img {
+    width: 130px;
+    height: 130px;
     object-fit: cover;
     border-radius: 50%;
-    margin-bottom: 10px;
-    border: 4px solid #ed71c4;
+    border: 4px solid #edc371;
+    margin-bottom: 8px;
 }
 
-.member h3 {
-    margin: 5px 0;
+.left h3 {
+    margin: 0;
+    text-align: center;
     color: #704211;
+    font-size: 1.2rem;
 }
-
-.member p {
+.member-info p {
+    margin: 0;
     font-size: 14px;
-    color: #444;
+    color: #333;
+
 }
 .title{
     font-size: 3rem;
-    color: #ec89d4;
+    color: #704211;
     background-color: transparent;
 
 
+}
+
+.image-credit{
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #888;
+    margin: 4px 0 0;
+}
+
+.image-credit a{
+
+    text-decoration: none;
+    color: #f4b942;
+}
+.image-credit a:hover{
+    text-decoration: underline;
+}
+
+.history-content {
+    max-width: 700px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #fde2ac;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
