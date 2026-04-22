@@ -482,3 +482,47 @@ footer {
     height: auto;
     border-radius: 12px;
 }
+
+
+.about-page .wrapper{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+}
+
+
+.member img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 4px solid #ed71c4;
+}
+
+.member h3 {
+    margin: 5px 0;
+    color: #704211;
+}
+
+.member p {
+    font-size: 14px;
+    color: #444;
+}
+.title{
+    font-size: 3rem;
+    color: #ec89d4;
+    background-color: transparent;
+
+
+}
