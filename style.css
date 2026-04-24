@@ -566,12 +566,12 @@ footer {
     margin: 4px 0 0;
 }
 
-.image-credit a{
+.components a{
 
     text-decoration: none;
     color: #f4b942;
 }
-.image-credit a:hover{
+.components a:hover{
     text-decoration: underline;
 }
 
