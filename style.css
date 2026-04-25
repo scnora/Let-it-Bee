@@ -317,12 +317,14 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    line-height: 1.6;
+    color: #444;
 }
 
 .map {
 	width: 900px;
 	height: 600px;
-	border: solid #704211 1px;
+	border: solid #f4b942 2px;
 	background: url(img/bee-map.png) no-repeat;
 	background-size: 900px 600px;
 	padding: 0;
@@ -382,6 +384,7 @@ footer {
     top: 130px;
 	left: 340px;
 }
+
 .map-point {
     position: absolute;
 }
@@ -436,7 +439,7 @@ footer {
 }
 
 .map-key {
-    width: 60%;
+    width: 50%;
     font-size: 14px;
 }
 
@@ -451,7 +454,6 @@ footer {
 
 .map-key td {
     border: #000000 1px solid;
-
     background-color: #fff7e6;
     padding: 10px;
     text-align: center;
@@ -491,6 +493,9 @@ footer {
     padding: 30px;
     background-color: white;
     border-radius: 12px;
+    line-height: 1.6;
+    color: #444;
+
 }
 
 .team {
@@ -555,6 +560,7 @@ footer {
     font-size: 3rem;
     color: #704211;
     background-color: transparent;
+    padding: 3rem 0 2rem ;
 
 
 }
@@ -563,7 +569,8 @@ footer {
     font-style: italic;
     font-size: 0.8rem;
     color: #888;
-    margin: 4px 0 0;
+    align-self: center;
+    
 }
 
 .components a{
@@ -585,3 +592,37 @@ footer {
     background-color: #fde2ac;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
+
+
+.components {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem; 
+}
+.component {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: #fce6bb; 
+}
+.component h3{
+    font-size: 30px;
+    align-self: center;
+}
+
+
+.component img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px ;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.component p,
+.component h3 {
+    max-width: 600px;
+}
+
