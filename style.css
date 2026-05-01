@@ -86,7 +86,7 @@ nav li a:hover {
     padding: 20px;
     background-color: white;
     border-radius: 12px;
-    line-height: 1.6;
+    line-height: 1.6em;
     color: #444;
 }
  
@@ -675,16 +675,15 @@ footer {
 
 
 .home-statement {
-    max-width: 700px;
+    max-width: 650px;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
     background-color: #fde2ac;
     border-radius: 12px;
     color: #704211;
+    font-size: 1.2em;
 }
-
-
 
 .showcase {
     display: grid;
@@ -714,6 +713,7 @@ footer {
 
 .card h3,
 .home-statement h3 {
+    font-size: 20px;
     color: #704211;
     margin: 10px 0 5px;
 }
@@ -746,7 +746,7 @@ footer i{
     gap: 20px 50px;
     padding: 50px;
     border-radius: 12px;
-    margin: 2rem auto;
+    margin: 2em auto;
     background: white;
 }
 
@@ -754,18 +754,12 @@ footer i{
     margin-bottom: 0.25em;
 }
 
-.category-label {
-    font-size: 0.85em;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #a07c3a;
-    margin-bottom: 1.5em;
-}
-
 .product-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.25em;
+    gap: 2em;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .product-card {
@@ -786,7 +780,7 @@ footer i{
     object-fit: cover;
     object-position: center;
     border-radius: 8px;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 
@@ -807,7 +801,7 @@ footer i{
     background: #f5c842;
     border: none;
     border-radius: 8px;
-    padding: 0.5rem 1.1em;
+    padding: 0.5em 1.1em;
     font-size: 0.9em;
     font-weight: 600;
     color: #3a2e1a;
