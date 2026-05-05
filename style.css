@@ -633,7 +633,7 @@ footer {
     width: 90%;
     margin: 40px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #fde2ac;
     border-radius: 12px;
     line-height: 1.6;
     color: #444;
@@ -663,7 +663,7 @@ footer {
     color: #704211;
     font-family: "Bungee", sans-serif;
     font-weight: bolder;
-    background: #edc371;
+    background: #fde2ac;
     border-radius: 50px;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
@@ -679,7 +679,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     padding: 20px;
-    background-color: #fde2ac;
+    /* border: 5px solid #edc371; */
     border-radius: 12px;
     color: #704211;
     font-size: 1.2em;
@@ -688,14 +688,14 @@ footer {
 .showcase {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 70%;
+    max-width: 90%;
     gap: 25px;
     margin: 0 auto;
     
 }
 
-.card {
-    background-color: #fde2ac;
+.card {   
+    border: 5px solid #edc371;
     padding: 15px;
     border-radius: 12px;
     text-align: center;
@@ -816,3 +816,26 @@ footer i{
 }
 
 
+
+.feature .wrapper {
+    display: grid;
+    max-width: 1000px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    line-height: 1.6em;
+    color: #444;
+
+
+}
+.feature video{
+    width: 200px;
+    height: auto;
+    align-items: center;
+
+}
+.feature img{
+    width: 200px;
+    
+}
