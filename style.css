@@ -820,6 +820,8 @@ footer i{
 .feature .wrapper {
     display: grid;
     max-width: 1000px;
+    margin: 40px auto;
+
     gap: 20px;
     padding: 20px;
     border-radius: 12px;
