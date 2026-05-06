@@ -3,14 +3,16 @@ body {
     background-color: #fbe8d6;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+    font-size:20px ;
 }
 
 .site-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #edc371;
-
+    gap: 600px;
     padding: 20px 50px;
 }
 
@@ -27,7 +29,7 @@ body {
 
 .main-nav ul {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -75,7 +77,9 @@ nav li a:hover {
     text-decoration: underline;
 }
 
-
+.wrapper {
+    padding: 30px 50px; 
+}
 .reviews-page .wrapper {
     display: grid;
     grid-template-columns: 1fr 280px;
@@ -83,7 +87,7 @@ nav li a:hover {
     gap: 30px 20px;
     max-width: 1000px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 40px;
     background-color: white;
     border-radius: 12px;
     line-height: 1.6em;
@@ -146,10 +150,10 @@ nav li a:hover {
 }
  
 .rheader{ grid-area: rheader; }
-.rlead{ grid-area: rlead;   }
-.raside{ grid-area: raside;  }
-.rinfo{ grid-area: rinfo;   }
-.rfooter{ grid-area: rfooter; }
+.rlead{ grid-area: rlead;}
+.raside{ grid-area: raside;}
+.rinfo{grid-area: rinfo;}
+.rfooter{ grid-area: rfooter;}
  
 .rheader h3 {
     margin: 0 0 4px;
@@ -158,9 +162,11 @@ nav li a:hover {
 }
  
 .rheader p {
+    margin-top: 15px;
+
     margin: 0;
     font-size: 0.9em;
-    color: #666;
+    color: #444;
 }
  
 .rlead img {
@@ -231,7 +237,7 @@ nav li a:hover {
     max-width: 1000px;
     margin: 40px auto;
     gap: 20px;
-    padding: 20px;
+    padding: 50px;
     border-radius: 12px;
     background-color: white;
     line-height: 1.6;
@@ -262,7 +268,7 @@ nav li a:hover {
     background-color: #edc371;
     color: #704211;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
     padding: 6px 10px;
     border-radius: 0 0 12px 12px;
 }
@@ -313,7 +319,7 @@ footer {
     margin: 40px auto;
     padding: 30px 20px;
     background-color: white;
-    border-radius: 12px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -433,7 +439,7 @@ footer {
 }
 
 .tooltip p {
-    font-size: 12px;
+    font-size: 15px;
     margin: 0;
     color: #444;
 }
@@ -552,15 +558,14 @@ footer {
 .member-info p {
     margin: 0;
     color: #333;
+    padding: 10px;
 
 }
 .title{
     font-size: 3em;
     color: #704211;
     background-color: transparent;
-    padding: 30px;
-
-
+    padding: 20px;
 }
 
 .image-credit{
@@ -597,6 +602,7 @@ footer {
     gap: 4em; 
 }
 .component {
+    color: #444;
     display: flex;
     align-items: flex-start;
     gap: 1em;
@@ -729,7 +735,9 @@ footer {
     background-color: #edc371;
 
 }
-
+footer{
+    font-size: 15px;
+}
 footer a{
     color: #fff;
 }
@@ -822,10 +830,10 @@ footer i{
     max-width: 1000px;
     margin: 40px auto;
 
-    gap: 20px;
-    padding: 20px;
+    gap: 50px;
+    padding: 50px;
     border-radius: 12px;
-    background-color: #fae5bb;
+    background-color: #fff;
     line-height: 1.6em;
     color: #444;
 
@@ -848,23 +856,24 @@ footer i{
     text-decoration: none;
     font-weight: bold;
 }
-.feature a:hover {
-    color: #d18f00;
+.feature .wrapper a:hover {
+    text-decoration: underline;
 }
 
-.feature img,
-.feature video {
+.feature .wrapper img,
+.feature .wrapper video {
     display: block;
     margin: 20px auto;
-    width: 200px;
+    width: 250px;
 
 }
 .feature .wrapper div{
     background-color: #fff;
     padding: 25px;
     border-radius: 15px;
-    /* border: 2px solid #f4b942; */
+    border: 2px solid #f4b942;
+    background-color: #fce6bb;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 800px;
 
 }
